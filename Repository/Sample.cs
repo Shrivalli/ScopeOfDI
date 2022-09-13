@@ -1,5 +1,6 @@
 ﻿namespace ScopeOfAPI.Repository
 {
+    //https://www.c-sharpcorner.com/article/understanding-addtransient-vs-addscoped-vs-addsingleton-in-asp-net-core/
     public class Sample
     {
         public string? transient1 { get; set; }
