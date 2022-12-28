@@ -3,6 +3,7 @@
     //https://www.c-sharpcorner.com/article/understanding-addtransient-vs-addscoped-vs-addsingleton-in-asp-net-core/
     public class Sample
     {
+        //comment added
         public string? transient1 { get; set; }
         public string? transient2 { get; set; }
         public string? scoped1 { get; set; }
