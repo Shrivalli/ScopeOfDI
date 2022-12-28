@@ -9,5 +9,6 @@
         public string? scoped2 {get;set;}
         public string? singleton1 { get; set; }
         public string? singleton2 { get; set; }
+        public string? message{get;set;}
     }
 }
