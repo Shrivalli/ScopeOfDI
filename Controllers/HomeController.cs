@@ -40,7 +40,7 @@ namespace ScopeOfAPI.Controllers
             s.scoped2 = _scopedService2.getvariablevalue().ToString();
             s.singleton1 = _singletonService1.getvariablevalue().ToString();
             s.singleton2 = _singletonService2.getvariablevalue().ToString();
-            s.message="welcome";
+            s.message="Thanks";
             return Ok(s);
 
         }
